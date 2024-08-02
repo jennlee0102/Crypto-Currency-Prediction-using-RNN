@@ -1,4 +1,4 @@
-"[Cryptocurrency Price Prediction Challenge](https://bitgrit.net/competition/20)"
+# [Cryptocurrency Price Prediction Challenge](https://bitgrit.net/competition/20)
 
 *   This project was very interesting and came with lots of trials and tribulations. We tried many different variations of feature engineering, imputation methods, and dimensionality reduction. At the end of the project, we decided to keep it simple and just impute zeros for all null values across our dataset. This approach led us to the best result. During this project we also almost made the mistake of introducing data leakage. By first splitting the dataframe into sequences and then into train and test we ensured that our model was free of information from the test holdout data.
 
